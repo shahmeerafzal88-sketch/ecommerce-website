@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop - SEILIN</title>
+
+    <link rel="stylesheet" href="Ecom.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+         SAME NAVBAR FROM HOMEPAGE
+    ========================= -->
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                SEILIN
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="Ecom.html">Home</a>
+
+                <a href="shop.html">Shop</a>
+
+                <a href="#">Categories</a>
+
+                <a href="shop.html">New Arrival</a>
+
+                <a href="about.html">About Us</a>
+
+                <a href="#">Contact</a>
+
+            </nav>
+
+
+            <div class="nav-icons">
+
+                <button aria-label="Search">
+                    <img src="54481.png" alt="">
+                </button>
+
+                <button aria-label="Account">
+                    <img src="user (1).png" alt="">
+                </button>
+
+                <button aria-label="Wishlist">
+                    <img src="love.png" alt="">
+                </button>
+
+                <a href="cart.html" class="cart-link">
+                    <img src="shopping-bag.png" alt="Cart">
+
+                    <span class="cart-count">
+                        0
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+         SHOP PAGE
+    ========================= -->
+
+    <main class="shop-page">
+
+        <div class="shop-container">
+
+            <!-- LEFT SIDEBAR -->
+            <!-- =========================
+     SHOP SIDEBAR
+========================= -->
+
+<aside class="shop-sidebar">
+
+    <!-- CATEGORIES -->
+
+    <div class="filter-section">
+
+        <h3>CATEGORIES</h3>
+
+        <a href="#" class="category-link active">
+            All Products <span>(48)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            New Arrivals <span>(12)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            Men <span>(24)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            Women <span>(16)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            Shoes <span>(20)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            T-Shirts <span>(12)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            Hoodies <span>(8)</span>
+        </a>
+
+        <a href="#" class="category-link">
+            Accessories <span>(8)</span>
+        </a>
+
+    </div>
+
+
+    <!-- PRICE -->
+
+    <div class="filter-section">
+
+        <h3>PRICE</h3>
+
+        <label class="filter-option">
+
+            <input type="checkbox">
+
+            <span>Under Rs. 2,000</span>
+
+        </label>
+
+
+        <label class="filter-option">
+
+            <input type="checkbox">
+
+            <span>Rs. 2,000 – Rs. 4,000</span>
+
+        </label>
+
+
+        <label class="filter-option">
+
+            <input type="checkbox">
+
+            <span>Rs. 4,000 – Rs. 6,000</span>
+
+        </label>
+
+
+        <label class="filter-option">
+
+            <input type="checkbox">
+
+            <span>Over Rs. 6,000</span>
+
+        </label>
+
+    </div>
+
+
+    <!-- COLOR -->
+
+    <div class="filter-section">
+
+        <h3>COLOR</h3>
+
+        <label class="color-option">
+
+            <span class="color-circle black"></span>
+
+            <span>Black</span>
+
+        </label>
+
+
+        <label class="color-option">
+
+            <span class="color-circle white"></span>
+
+            <span>White</span>
+
+        </label>
+
+
+        <label class="color-option">
+
+            <span class="color-circle gray"></span>
+
+            <span>Gray</span>
+
+        </label>
+
+
+        <label class="color-option">
+
+            <span class="color-circle beige"></span>
+
+            <span>Beige</span>
+
+        </label>
+
+
+        <label class="color-option">
+
+            <span class="color-circle navy"></span>
+
+            <span>Navy</span>
+
+        </label>
+
+
+        <button class="view-more-btn" type="button">
+            View more
+        </button>
+
+    </div>
+
+</aside>
+
+
+            <!-- RIGHT PRODUCTS AREA -->
+           <!-- =========================
+     SHOP PRODUCTS AREA
+========================= -->
+
+<section class="shop-products">
+
+
+    <!-- =========================
+         SHOP HEADER
+    ========================= -->
+
+    <div class="shop-header">
+
+        <div class="shop-title">
+
+            <h1>SHOP</h1>
+
+            <div class="breadcrumb">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <span>›</span>
+
+                <span>Shop</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="shop-actions">
+
+            <p>
+                Showing 1–12 of 48 products
+            </p>
+
+            <select class="sort-select">
+
+                <option value="featured">
+                    Sort by: Featured
+                </option>
+
+                <option value="newest">
+                    Newest
+                </option>
+
+                <option value="price-low">
+                    Price: Low to High
+                </option>
+
+                <option value="price-high">
+                    Price: High to Low
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         PRODUCT GRID
+    ========================= -->
+
+    <div class="shop-product-grid">
+
+    <!-- Product 1 -->
+    <article class="shop-product-card"
+    data-id="running-shoes"
+    data-category="shoes">
+
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+             <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="nike4.jpg"
+                alt="Running Shoes"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Running Shoes</h3>
+
+            <p>Rs. 3,000</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 2 -->
+    <article class="shop-product-card"
+    data-id="classic-tshirt"
+    data-category="t-shirts">
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+             <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+            <img
+                src="t.jpg"
+                alt="Classic T-Shirt"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Classic T-Shirt</h3>
+
+            <p>Rs. 2,500</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 3 -->
+   <article class="shop-product-card"
+    data-id="best-hoodie"
+    data-category="hoodies">
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+             <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="hd.jpg"
+                alt="Best Hoodie"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Best Hoodie</h3>
+
+            <p>Rs. 5,000</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 4 -->
+    <article class="shop-product-card"
+    data-id="nike-cap"
+    data-category="accessories">
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+             <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="cap.jpg"
+                alt="Nike Cap"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Nike Cap</h3>
+
+            <p>Rs. 2,000</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 5 -->
+    <article class="shop-product-card"
+    data-id="seilin-sneakers"
+    data-category="shoes">
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+            <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="ad.jpg"
+                alt="Seilin Sneakers"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Seilin Sneakers</h3>
+
+            <p>Rs. 3,500</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 6 -->
+   <article class="shop-product-card"
+    data-id="comfort-trouser"
+    data-category="men">
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+           <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="t.webp"
+                alt="Comfort Trouser"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Comfort Trouser</h3>
+
+            <p>Rs. 1,500</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 7 -->
+    <article class="shop-product-card"
+    data-id="oversized-shirt"
+    data-category="t-shirts">
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+             <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="s.jpg"
+                alt="Oversized Shirt"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Oversized Shirt</h3>
+
+            <p>Rs. 4,000</p>
+
+        </div>
+
+    </article>
+
+
+    <!-- Product 8 -->
+    <article class="shop-product-card"
+    data-id="nike-bag"
+    data-category="accessories">
+
+        <div class="shop-product-image">
+
+            <span class="product-badge">
+                New
+            </span>
+
+           <button class="wishlist-btn">
+    <img src="e-commerce.png" alt="Wishlist">
+</button>
+
+            <img
+                src="bag (2).jpg"
+                alt="Nike Bag"
+            >
+
+        </div>
+
+        <div class="shop-product-info">
+
+            <h3>Nike Bag</h3>
+
+            <p>Rs. 4,000</p>
+
+        </div>
+
+    </article>
+
+
+</div>
+
+    </div>
+
+
+    <!-- =========================
+         PAGINATION
+    ========================= -->
+
+    <div class="pagination">
+
+        <button class="page-btn active">
+            1
+        </button>
+
+        <button class="page-btn">
+            2
+        </button>
+
+        <button class="page-btn">
+            3
+        </button>
+
+    </div>
+
+
+</section>
+        </div>
+
+    </main>
+
+
+    <script src="Ecom.js"></script>
+
+</body>
+
+</html>
